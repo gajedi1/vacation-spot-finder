@@ -1,0 +1,55 @@
+body{
+    background-color:black;
+    height: 90vh;
+}
+.container{
+    text-align: center;
+    color: antiquewhite;
+}
+.btn1{
+   padding: 10px 20px;
+    font-size: 16px;
+    border: none;
+    background: #007BFF; 
+    color: white;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-right: 10px; 
+}
+.btn1:hover{
+   padding: 12px 23px;
+   background-color: rgb(39, 90, 73);
+}
+.heading:hover{
+color: rgb(189, 162, 112);
+cursor:default;
+}
+.demo{
+    font-size: 22px;
+}
+.demo:hover{
+    cursor:default ;
+    color: rgb(218, 168, 108);
+}
+.output{
+     text-align: center;
+    color: antiquewhite;
+    font-size: 20px;
+}
+.output:hover{
+        cursor:default ;
+    color: rgb(218, 168, 108);
+}
+.buffer{    border: 4px solid #f3f3f3; /* Light grey */
+    border-top: 4px solid #3498db; /* Blue */
+    border-radius: 50%;
+    width: 40px;
+    height: 40px;
+    animation: spin 2s linear infinite;
+    margin: 20px auto;
+    display: none;
+}
+@keyframes spin {
+    0% { transform: rotate(0deg); }
+    100% { transform: rotate(1600deg); }
+}
